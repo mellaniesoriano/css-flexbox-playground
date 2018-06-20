@@ -168,13 +168,13 @@ body {
 	float: left;
 }
 
-input[type=radio]:checked+label {
-	color: #FD6F8A;
+input[type='radio']:checked + label {
+	color: #fec5d0;
 }
 
-input[type=number] {
+input[type='number'] {
 	width: 40px;
-	margin-right: .5em;
+	margin-right: 0.5em;
 }
 
 h1 {
@@ -189,7 +189,7 @@ h2 {
 
 h4 a {
 	font-size: 20px;
-	color: #91BDED;
+	color: #91bded;
 	text-decoration: none;
 	letter-spacing: 2px;
 }
@@ -292,13 +292,13 @@ table td {
 	white-space: nowrap;
 }
 
-@media only screen and (max-width:1100px) {
+@media only screen and (max-width: 1100px) {
 	.main {
 		width: calc(100% - 40px);
 	}
 }
 
-@media only screen and (max-width:580px) {
+@media only screen and (max-width: 580px) {
 	.item {
 		width: 50px;
 		height: 50px;
@@ -317,15 +317,15 @@ table td {
 }
 
 .item-one {
-	background: #FD6F8A;
+	background: #fd6f8a;
 }
 
 .item-two {
-	background: #4FB4A3;
+	background: #4fb4a3;
 }
 
 .item-three {
-	background: #A699C8;
+	background: #a699c8;
 }
 
 .item-four {
@@ -333,20 +333,20 @@ table td {
 }
 
 .item-five {
-	background: #C8DA9D;
+	background: #c8da9d;
 }
 
 .child-item-one {
-	background: #78DFC0;
+	background: #78dfc0;
 }
 
 .child-item-two {
-	background: #617A92;
+	background: #617a92;
 }
 
 .child-item-three,
 #alignSelf {
-	background: #9B8EBD;
+	background: #9b8ebd;
 }
 
 .child-item-four {
