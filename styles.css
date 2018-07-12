@@ -148,10 +148,11 @@ body {
 	color: white;
 	font-size: 16px;
 	font-family: 'Poppins';
-	background-color: #425862;
+	background-color: #282a36;
 	padding: 20px;
 	margin: auto;
 	min-height: 100%;
+	text-align: center;
 }
 
 .main {
@@ -180,6 +181,8 @@ input[type='number'] {
 h1 {
 	font-size: 40px;
 	text-align: center;
+	color: #bd96f6;
+	margin: 0px;
 }
 
 h2 {
@@ -189,7 +192,7 @@ h2 {
 
 h4 a {
 	font-size: 20px;
-	color: #91bded;
+	color: #fd7cc5;
 	text-decoration: none;
 	letter-spacing: 2px;
 }
@@ -202,7 +205,7 @@ h4 small {
 	font-variant: normal;
 	font-size: 14px;
 	font-weight: normal;
-	color: #efefef;
+	color: #4af280;
 }
 
 table {
@@ -218,7 +221,7 @@ table td {
 .flex-container {
 	display: flex;
 	padding: 20px;
-	width: 100%;
+	background: #eeeeee;
 }
 
 .item {
@@ -307,10 +310,6 @@ table td {
 		width: calc(100% - 40px);
 		min-width: initial;
 	}
-	.flex-container {
-		width: 100%;
-		min-width: initial;
-	}
 	#wrap {
 		width: 200px;
 	}
@@ -355,4 +354,9 @@ table td {
 
 .child-item-five {
 	background: #ccdd8b;
+}
+
+#parent-or-child,
+#link-instruction {
+	color: #fd7cc5;
 }
